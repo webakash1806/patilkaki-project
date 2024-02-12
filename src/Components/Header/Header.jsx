@@ -46,11 +46,11 @@ const Header = () => {
                     {barActive ? <FontAwesomeIcon icon={faBars} className='text-[1.3rem]' />
                         : <FontAwesomeIcon icon={faXmark} className='text-[1.6rem]' />}
                 </div>
-                <div className='md:mr-6 lg:mr-10'>Kaki Snacks</div>
+                <div className=' md:mr-6 lg:mr-10'>Kaki Snacks</div>
                 <nav className={`bg-black text-white md:border-0 shadow-[0px_160px_1000px_#12073ac5] md:shadow-none flex border-t-[#201154] border-t-2  p-4 pb-10 md:p-0 w-screen md:max-w-[80vw]  items-center justify-between gap-3 md:gap-0 flex-col absolute 
             ${barActive ? "top-[2.95rem] left-[-60rem] duration-[0.5s]" : "top-[2.85rem] left-0 duration-[0.5s]"}
              md:flex-row md:static `}>
-                    <div className="flex flex-col md:flex-row gap-3 md:gap-0 ">
+                    <div className="flex flex-col gap-3 md:flex-row md:gap-0 ">
 
                         <div onClick={() => scrollToSection(hero)} className='text-[1.05rem] 
                             tracking-wide 
