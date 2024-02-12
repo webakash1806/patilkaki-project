@@ -5,6 +5,9 @@ import heroImg2 from '../assets/heroImg2.jpg'
 import heroImg3 from '../assets/heroImg3.jpg'
 import About from './About'
 import WhyWePage from './WhyWePage'
+import Footer from '../Components/Footer'
+import CountdownComp from '../Components/CountdownComp'
+import Cta from '../Components/Cta'
 
 const Hero = () => {
     return (
@@ -28,6 +31,9 @@ const Hero = () => {
             </div>
             <About />
             <WhyWePage />
+            <CountdownComp />
+            <Cta />
+            <Footer />
         </>
     )
 }

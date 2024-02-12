@@ -11,7 +11,7 @@ export default {
       'black': '#000000',
       'white': '#ffffff',
       'grey': '#212121',
-      'sageGreen': '#94A488',
+      'sageGreen': '#879458',
       'royalYellow': '#F2D34E'
 
     },
