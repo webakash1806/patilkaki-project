@@ -12,17 +12,18 @@ const CountdownComp = () => {
     };
 
     return (
-        <div className=' text-white bg-sageGreen flex flex-col items-center justify-center p-6'>
-            Countdown
-            <div className='text-[2.8rem] tracking-widest font-semibold flex flex-col items-center'>
+        <div className='flex items-center justify-center p-10 bg-grey border-[4px] border-sageGreen'>
+            <div className='text-[2.8rem] p-6  text-white bg-sageGreen tracking-widest font-semibold flex flex-col items-center w-[90vw] lg:[w-80vw]'>
+                <h1 className='text-[1.5rem] tracking-normal text-[#e5f9fa]'>Time is running out.</h1>
+                <h2 className='text-[1.3rem] tracking-normal text-[#ebfbfc]'>Grab 50% discount!</h2>
                 <Countdown
                     date={Date.now() + 500000}
                     intervalDelay={1000}
                     renderer={renderer}
                 />
-                <button className='text-[1.1rem] bg-grey p-[5px] px-10 rounded-[3.5px]'>Grab 50% off!</button>
-            </div>
+                <button className='text-[1.1rem] bg-grey p-[5px] px-10 rounded-[3.5px] mt-4'>Buy Now!</button>
 
+            </div>
         </div>
     )
 }

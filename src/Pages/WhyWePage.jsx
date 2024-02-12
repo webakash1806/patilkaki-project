@@ -3,13 +3,13 @@ import whyImg from '../assets/whyImg.png'
 
 const WhyWePage = () => {
     return (
-        <div className='bg-grey text-white flex flex-col items-center justify-center gap-4'>
+        <div className='bg-grey text-white flex flex-col items-center justify-center gap-4 py-20'>
             <h1 className='text-[1.4rem] font-semibold border-b-2 pb-[1px] border-royalYellow'>Why Choose Us?</h1>
-            <div className='flex flex-col items-center justify-center gap-6'>
+            <div className='flex flex-col items-center justify-center gap-6 lg:flex-row'>
                 <div>
-                    <img src={whyImg} alt="" className='w-[17rem] rounded-md' />
+                    <img src={whyImg} alt="" className='w-[17rem] lg:w-[22rem] rounded-md' />
                 </div>
-                <div>
+                <div className='w-[90vw] sm:w-[75vw] md:w-[45vw]'>
                     <div className='border-l pl-6 relative ml-6'>
                         <div className='w-[0.9rem] h-[0.9rem] bg-royalYellow rounded-full absolute left-[-0.47rem] top-[0.38rem]'></div>
                         <h2 className='text-[1.15rem] font-semibold text-[#f2fcd5]'>Craftsmanship</h2>

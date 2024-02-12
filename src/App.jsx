@@ -1,15 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Hero from './Pages/Hero'
-import About from './Pages/About'
-import WhyWePage from './Pages/WhyWePage'
+import Header from './Components/Header/Header'
 
 const App = () => {
   return (
     <Routes>
-      <Route path='/' element={<Hero />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/whyWe' element={<WhyWePage />} />
+      <Route path='/' element={<Header />} />
     </Routes>
   )
 }

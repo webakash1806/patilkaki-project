@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Founder from '../assets/Founder.png'
 
 const About = () => {
+    const about = useRef(null)
+    // const whyWe = useRef(null)
     return (
-        <div className='bg-grey text-white flex flex-col items-center justify-center gap-4'>
+        <div ref={about} className='bg-grey text-white flex flex-col items-center justify-center gap-4 py-20'>
             <h1 className='text-[1.4rem] font-semibold border-b-2 pb-[1px] border-royalYellow'>About the Founder</h1>
-            <div className='flex flex-col items-center justify-center gap-6'>
+            <div className='flex flex-col items-center justify-center gap-6 lg:flex-row'>
                 <div>
-                    <img src={Founder} alt="" className='w-[17rem] rounded-md' />
+                    <img src={Founder} alt="" className='w-[17rem] rounded-md lg:w-[22rem]' />
                 </div>
-                <div>
+                <div className='w-[90vw] sm:w-[75vw] md:w-[45vw]'>
                     <div className='border-l pl-6 relative ml-6'>
                         <div className='w-[0.9rem] h-[0.9rem] bg-royalYellow rounded-full absolute left-[-0.47rem] top-[0.38rem]'></div>
                         <h2 className='text-[1.15rem] font-semibold text-[#f2fcd5]'>Meet Founder - The Creative Force Behind Kaki Snacks</h2>
