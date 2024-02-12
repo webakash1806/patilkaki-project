@@ -3,6 +3,8 @@ import Header from '../Components/Header/Header'
 import heroImg1 from '../assets/heroImg1.jpg'
 import heroImg2 from '../assets/heroImg2.jpg'
 import heroImg3 from '../assets/heroImg3.jpg'
+import About from './About'
+import WhyWePage from './WhyWePage'
 
 const Hero = () => {
     return (
@@ -24,6 +26,8 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            <About />
+            <WhyWePage />
         </>
     )
 }
