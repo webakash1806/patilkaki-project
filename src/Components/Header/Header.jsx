@@ -40,7 +40,7 @@ const Header = () => {
     }, [])
 
     return (
-        <>
+        <div className='font-sans'>
             <header className='flex w-full justify-between  md:pl-14 md:pr-6 lg:pl-16 lg:pr-8 lg:p-3 bg-darkBg text-white items-center  z-[100] py-[10px] px-6 shadow-[-1px_1px_7px_#000] fixed top-0 left-0 bg-black'>
                 <div className=' w-[2rem] h-[2rem] flex items-center justify-center md:hidden cursor-pointer text-royalYellow' onClick={hamActive}>
                     {barActive ? <FontAwesomeIcon icon={faBars} className='text-[1.3rem]' />
@@ -108,7 +108,7 @@ const Header = () => {
                     <FontAwesomeIcon icon={faXmark} />
                 </div>
             </div>}
-        </>
+        </div>
     )
 }
 
